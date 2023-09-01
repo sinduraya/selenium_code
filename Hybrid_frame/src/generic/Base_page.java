@@ -9,6 +9,7 @@ public WebDriver driver;
 public Base_page(WebDriver driver)
 {
 	PageFactory.initElements(driver, this);
+	Thread.sleep(2000);
 }
 
 }
